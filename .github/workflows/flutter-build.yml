@@ -40,7 +40,7 @@ env:
   MACOS_P12_BASE64: "${{ secrets.MACOS_P12_BASE64 }}"
   RS_PUB_KEY: "${{ secrets.RS_PUB_KEY }}"
   RENDEZVOUS_SERVER: "${{ secrets.RENDEZVOUS_SERVER }}"
-  API_SERVER: "${{ secrets.API_SERVER || 'http://113.44.77.159:21114' }}"
+  API_SERVER: "${{ secrets.API_SERVER || 'http://rd.yaojie.site:21114' }}"
   UPLOAD_ARTIFACT: "${{ inputs.upload-artifact }}"
   SIGN_BASE_URL: "${{ secrets.SIGN_BASE_URL }}"
 
